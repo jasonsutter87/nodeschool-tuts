@@ -7,9 +7,13 @@
 // solution.
 
 function foo(){
-	var bar
+	var bar = true
 	quux = "Tacos"
-	function zip (){
-		var quux = "Pizza"
+	function zip(){
+		var	quux
+		bar = false
 	}
+	return zip
+
+	
 }
